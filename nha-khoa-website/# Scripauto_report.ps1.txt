@@ -1,0 +1,11 @@
+# Scrip:auto_report.ps1
+# Tac gia:Hà Duy Mạnh
+# Ngay tao:28/10/2026
+
+Write-Host"Dang-loc-log"
+
+"===BAO CAO LOI==="> 
+
+Get-content HOAN_THIEN|Slect-String"HOAN_THIEN">>HOAN_THIEN
+
+Write-Host"Hoan Thanh!"
